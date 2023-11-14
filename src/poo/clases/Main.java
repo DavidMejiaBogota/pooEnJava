@@ -1,5 +1,7 @@
 package poo.clases;
 
+import poo.herencia.Camion;
+import poo.herencia.Coche;
 import poo.herencia.MotoCicleta;
 
 public class Main {
@@ -33,5 +35,17 @@ public class Main {
         System.out.println("Fin de programa");
 
         //3. Polimorfismo
+        Vehiculo vehiculo;
+        vehiculo = new MotoCicleta();
+        vehiculo.acelerar(50);
+
+        vehiculo = new Coche();
+        vehiculo.acelerar(70);
+
+        vehiculo = new Camion();
+        vehiculo.acelerar(90);
+
+
+
     }
 }
