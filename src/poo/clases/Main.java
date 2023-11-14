@@ -5,6 +5,7 @@ import poo.herencia.Coche;
 import poo.herencia.MotoCicleta;
 
 public class Main {
+
     public static void main(String[] args) {
         //1. Clases y objetos
 
@@ -45,7 +46,7 @@ public class Main {
         vehiculo = new Camion();
         vehiculo.acelerar(90);
 
-
+        //4. Clases abstractas: no se pueden instanciar(crear objetos), solo instancia las clases hijas.
 
     }
 }
